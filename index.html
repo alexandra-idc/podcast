@@ -1,0 +1,239 @@
+<!-- 
+     - Landing page responsiva do genero de Podcast;
+     - Feito com o Framework Web Boostrap; 
+     - Foi utilizado CSS para modificar os elementos Boostraps necessários;
+     - Foi utilizado a biblioteca JS owl para os efeitos no carrossel;
+     - As cores, tanto nos textos como nas imagens, foram utilizadas baseadas na palhetas de cores do site https://canadian-wealth.ca/;
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multimídia com alta Qualidade - Conheça sobre o serviço | PodTest</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="icon" href="images/favicon/favicon.png">
+  <meta name="keywords" content="podcast, multimidia, pod, cast, musicas e videos">
+  <meta name="robots" content="">
+  <meta name="revisit-after" content="1 day">
+  <meta name="language" content="Portuguese">
+  <meta name="generator" content="N/A">
+
+<!-- Incluindo arquivos locais e externos na página -->
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/carrossel.css">
+  <link rel="stylesheet" type="text/css" href="css/newsletter.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="js/carrossel.js"></script>
+  <script src="js/query.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<!-- Fim includes -->
+</head>
+<body>
+
+<!-- Cabeçalho da landing page (imagem, textos, efeitos no background, etc.) -->
+<div class="carousel fade-carousel slide">
+  <div class="overlay"></div>
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>A QUALIDADE QUE VOCÊ PROCURA</h1>        
+            <h3 style="font-size: 1em;">Veja as vantagens de utilizar nossos recursos</h3>
+        </hgroup>
+        <button class="button_canada" role="button">MAIS INFORMAÇÕES</button>
+      </div>
+    </div>.
+  </div> 
+</div>
+<!-- Fim cabeçalho-->
+
+<!-- mensagem no meio da landing page -->
+<h1 class="title-home">Escute quando quiser, a hora que quiser <i class="fa fa-headphones"></i></h1>
+<!-- Fim mensagem -->
+
+
+<!-- Sliders no meio da landing page,
+     css/carrossel.css está o CSS do slider,
+     js/carrossel.js está a library do slider -->
+    <section class="slider_sec">
+        <div class="container-fluid fix-cont">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="slider_in">
+                        <h4>OS GÊNEROS MUSICAIS MAIS</h4>
+                        <h3 style="color: #1674D1;">ACESSADOS</h3>
+                        <div id="owl-carousel" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="img_wrp">
+                                    <div class="img_text">
+                                        <h5>Pop</h5>
+                                    </div>
+                                    <img src="images/pop_.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img_wrp">
+                                    <div class="img_text">
+                                        <h5>Rock</h5>
+                                    </div>
+                                    <img src="images/rock_.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img_wrp">
+                                    <div class="img_text">
+                                        <h5>Rap</h5>
+                                    </div>
+                                    <img src="images/rap_.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img_wrp">
+                                    <div class="img_text">
+                                        <h5>Eletrônica</h5>
+                                    </div>
+                                    <img src="images/eletronic_.jpg" alt="">
+                                </div>
+                            </div>
+                             <div class="item">
+                                <div class="img_wrp">
+                                    <div class="img_text">
+                                        <h5>Rock Clássico</h5>
+                                    </div>
+                                    <img src="images/rock-classico_.jpg" alt="">
+                                </div>
+                            </div>
+                             <div class="item">
+                                <div class="img_wrp">
+                                    <div class="img_text">
+                                        <h5>Electro Pop</h5>
+                                    </div>
+                                    <img src="images/electro-pop_.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pacote">
+                  <h3>Escolha seu Pacote</h3>
+                  <button class="button_canada" role="button">Músicas 320 kbit/s</button> <button class="button_canada" role="button">Vídeos 4k</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Fim slider -->
+
+
+<!-- Parte da newsletter -->
+<!-- Sobre o formulário: como é apenas uma landing page e não tem um banco de dados para recebimento dos email, 
+     o form não foi configurado para receber, validar e salvar em alguma database o email.
+     Mas em uma situação real, após preenchido o formuláro, e após as validações iniciais do front end, 
+     os dados preenchidos seriam enviados para o PHP para uma validação mais criteriosa, e filtrar os dados 
+     para evitar algum tipo de ataque (sql injection, etc) e depois seria inserido em algum banco ou algo do tipo. -->
+<section class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <form>
+                            <h2>Receba nossa Newsletter</h2>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="meu@email.com" required="required" maxlength="50">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="submit">Enviar</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Fim newsletter -->
+
+
+<!-- Footer -->
+<footer id="footer" class="clearfix">
+      <div id="footer-widgets">
+        <div class="container">
+        <div id="footer-wrapper">
+          <div class="row">
+
+
+            <!-- Coluna 1 -->
+            <div class="col-sm-6 col-md-2">
+              <div id="meta-3" class="widget widgetFooter widget_meta">
+              <h4 class="widgettitle">PÁGINAS DO SITE</h4>
+                <ul>
+                    <li><a href="#"> INÍCIO</a></li>
+                    <li><a href="privacypolicy.php">OFERTAS</a></li>
+                    <li><a href="#"> CONTATO</a></li>
+                 </ul>
+              </div>      
+            </div> 
+            <!-- Fim Coluna 1 -->
+
+
+            <!-- Coluna 2 -->
+            <div class="col-sm-6 col-md-2">
+                  <div id="recent-posts-3" class="widget widgetFooter widget_recent_entries">
+                    <h4 class="widgettitle">SIGA-NOS</h4>
+                    <ul>
+                      <li>
+                         <a href="#"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+                         <a href="#"><i class="fa fa-twitter-square" style="font-size:36px"></i></a>
+                         <a href="#"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+                      </li>
+                    </ul>
+                </div>            
+              </div>
+              <!-- Fim coluna 2 -->
+
+
+            <!-- Campos de formularios fictícios como o do newsletter, 
+                 em um website geral ele estaria funcionando perfeitamente e com segurança. -->
+            <div class="col-sm-6 col-md-4">
+              <div id="meta-4" class="widget widgetFooter widget_meta">
+              <h4 class="widgettitle">NOS ENVIE UM E-MAIL</h4>
+              <div class="form-group">
+                <div class="input-group">
+                  <input class="form-inputCustom" placeholder="Email" type="email" required="required" maxlength="50"> 
+                  <textarea class="form-textArea" placeholder="Mensagem..." required="required"></textarea>
+                  <button class="button_form">Enviar <i class="fa fa-send"></i></button>
+                </div>
+               </div>
+              <div class="form-group">
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+
+
+<!-- Informações do final da página.  
+     (Abaixo do footer)
+   -->
+      <div id="sub-floor">
+        <div class="container">
+          <div class="row" style="text-align: center;">
+            <small>Copyright © 2019 - Todos os direitos reservados à <a href="#">PodTest</a></small>
+          </div>
+        </div>
+      </div>
+<!-- Fim informações final da pagina -->    
+
+
+    </footer>
+<!-- Fim footer -->    
+
+
+</body>
+</html>

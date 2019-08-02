@@ -1,0 +1,75 @@
+/* little changes */
+.title-home{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .btn-primary{
+    background-color: #0e5499;
+    border-color: #0e5499;
+  }
+
+  .button_canada{
+    background-color: transparent;
+    border-color: #1674D1;
+    color:#1674D1;
+    border-radius: 0.2em;
+    padding: 1em;
+    font-size: 0.9em;
+    width: 15em;
+    font-weight: bold;
+  }
+  .button_canada:hover{
+    background-color: transparent;
+    border-color: #1674D1;
+    color:white;
+    border-radius: 0.2em;
+    padding: 1em;
+    font-size: 0.9em;
+    width: 15em;
+    font-weight: bold;
+  }
+
+  .pacote h3{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  .form-inputCustom{
+    padding: 0.5em;
+    width: 25em;
+    background-color: transparent;
+    border-width: 0.1em;
+    border-color: #1674D1;
+  }
+  .form-textArea{
+    margin-top: 0.3em;
+    padding: 0.5em;
+    width: 25em;
+     height: 7em;
+    background-color: transparent;
+    border-width: 0.1em;
+    border-color: #1674D1;
+    resize: none;
+  }
+
+  .button_form{
+    background-color: transparent;
+    border-color: #1674D1;
+    color:#1674D1;
+    padding: 0.8em;
+    font-size: 0.8em;
+    width: 12em;
+    border-width: 0.1em;
+    font-weight: bold;
+  }
+  .button_form:hover{
+    background-color: transparent;
+    border-color: #1674D1;
+    color:white;
+    padding: 0.8em;
+    font-size: 0.8em;
+    width: 12em;
+    border-width: 0.1em;
+    font-weight: bold;
+  }
